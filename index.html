@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiến Rose - Portfolio cá nhân</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo">
+        TIẾN <span>ROSE</span>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <nav class="nav-links">
+        <a href="#hero">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#projects">Dự án</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-tagline">Xin chào, mình là</p>
+        <h1 class="hero-title">Trần Tiến (Tiến Rose)</h1>
+        <p class="hero-subtitle">
+          Sinh viên Tài chính – Ngân hàng, thích code web, đầu tư chứng khoán và tự tối ưu cuộc sống.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">Xem dự án</a>
+          <a href="#contact" class="btn ghost">Liên hệ</a>
+        </div>
+        <p class="hero-note">
+          Đây là portfolio cá nhân của mình – nơi gom lại mấy project web, tool học và mấy thứ mình đang xây.
+        </p>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-circle">
+          <img src="images/avatar.jpg" alt="Ảnh cá nhân" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container section-inner">
+      <div class="section-header">
+        <h2>Giới thiệu</h2>
+        <p>Vài dòng để người ta biết mình là ai và đang theo đuổi những gì.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Mình là Tiến, hiện đang học Tài chính – Ngân hàng. Ngoài chuyện học chuyên ngành, mình thích tự mày mò
+            thêm về web front-end, các tool hỗ trợ học tập và quản lý tài chính cá nhân.
+          </p>
+          <p>
+            Mình quan tâm tới:
+          </p>
+          <ul>
+            <li>Web tĩnh (HTML/CSS/JS) có thể deploy dễ dàng lên GitHub Pages.</li>
+            <li>Các web nhỏ giúp học tiếng Anh, ôn thi trắc nghiệm, ghi chép tài chính.</li>
+            <li>Đầu tư chứng khoán Việt Nam theo kiểu có quản trị rủi ro, không all-in cảm tính.</li>
+          </ul>
+        </div>
+
+        <div class="about-cards">
+          <div class="info-card">
+            <h3>Thông tin nhanh</h3>
+            <ul>
+              <li><span>Họ tên:</span> Trần Tiến</li>
+              <li><span>Biệt danh:</span> Tiến Rose</li>
+              <li><span>Ngành:</span> Tài chính – Ngân hàng</li>
+              <li><span>Định hướng:</span> Fintech / Web / Đầu tư</li>
+              <li><span>Địa điểm:</span> TP. Hồ Chí Minh</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Đang tập trung</h3>
+            <ul>
+              <li>Build các web nhỏ nhưng xài được thật.</li>
+              <li>Hoàn thiện kiến thức nền về tài chính & chứng khoán.</li>
+              <li>Cải thiện tiếng Anh và kỷ luật học tập.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container section-inner">
+      <div class="section-header">
+        <h2>Kỹ năng</h2>
+        <p>Một chút về những gì mình đang làm và đang học.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-column">
+          <h3>Web / Tech</h3>
+          <ul>
+            <li>HTML5, CSS3 (Flexbox, Grid, Responsive).</li>
+            <li>JavaScript cơ bản, DOM, LocalStorage.</li>
+            <li>Web tĩnh deploy GitHub Pages.</li>
+            <li>Làm các tool nhỏ: quiz, flashcard, tracker.</li>
+          </ul>
+        </div>
+
+        <div class="skill-column">
+          <h3>Finance / Đầu tư</h3>
+          <ul>
+            <li>Quản lý chi tiêu, ghi chép thu chi.</li>
+            <li>Kiến thức cơ bản về chứng khoán VN.</li>
+            <li>Quản trị rủi ro, tỉ lệ R:R, sizing vị thế.</li>
+            <li>Top-down thinking, trading journal.</li>
+          </ul>
+        </div>
+
+        <div class="skill-column">
+          <h3>Khác</h3>
+          <ul>
+            <li>Tự học, tự research, xài AI hỗ trợ.</li>
+            <li>Tiếng Anh đọc hiểu tài liệu cơ bản.</li>
+            <li>Thích debug cả code lẫn cuộc đời.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container section-inner">
+      <div class="section-header">
+        <h2>Dự án</h2>
+        <p>Một vài thứ mình đã và đang build, sẽ cập nhật thêm dần.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Web học tiếng Anh (Flashcard)</h3>
+          <p>
+            Web học từ vựng theo chủ đề, dùng flashcard, có phát âm bằng Web Speech API và lưu tiến độ học bằng LocalStorage.
+          </p>
+          <p class="project-meta">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </p>
+          <a href="#" class="project-link" target="_blank">Xem demo</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Ngân hàng đề thi trắc nghiệm</h3>
+          <p>
+            Website thi thử với nhiều đề, có chế độ ôn tập, chấm điểm, đếm thời gian, dùng hoàn toàn web tĩnh.
+          </p>
+          <p class="project-meta">
+            <span>Quiz</span><span>JS</span>
+          </p>
+          <a href="#" class="project-link" target="_blank">Xem demo</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Tool quản lý tài chính cá nhân</h3>
+          <p>
+            Ghi lại thu chi, phân loại, tính tổng theo tháng – tất cả lưu trên trình duyệt, dùng để tự kiểm soát tiền bạc.
+          </p>
+          <p class="project-meta">
+            <span>Finance</span><span>LocalStorage</span>
+          </p>
+          <a href="#" class="project-link" target="_blank">Xem demo</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <!-- CONTACT -->
+<section id="contact" class="section section-alt">
+  <div class="container section-inner contact-inner">
+
+    <!-- Thông báo gửi thành công -->
+    <div id="contact-success" class="contact-success" hidden>
+      Cảm ơn bạn, mình đã nhận được tin nhắn. Mình sẽ kiểm tra email sớm nhất có thể.
+    </div>
+
+    <div class="section-header">
+      <h2>Liên hệ</h2>
+      <p>Nếu bạn muốn kết nối, hợp tác hoặc đơn giản là góp ý gì đó.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- INFO -->
+      <div class="contact-info">
+        <p>Bạn có thể liên hệ qua:</p>
+        <ul>
+          <li>
+            <span>Email:</span>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=trantien2k5@gmail.com" target="_blank">
+              trantien2k5@gmail.com
+            </a>
+          </li>
+          <li>
+            <span>Facebook:</span>
+            <a href="https://facebook.com/tran.tien.279844" target="_blank">
+              facebook.com/tran.tien.279844
+            </a>
+          </li>
+          <li>
+            <span>GitHub:</span>
+            <a href="https://github.com/trantien2k5" target="_blank">
+              github.com/trantien2k5
+            </a>
+          </li>
+        </ul>
+        <p class="contact-note">
+          Form bên cạnh dùng FormSubmit để gửi mail trực tiếp cho mình, không cần backend.
+        </p>
+      </div>
+
+      <!-- FORM (LV2: FormSubmit) -->
+      <form class="contact-form"
+            action="https://formsubmit.co/trantien2k5@gmail.com"
+            method="POST">
+
+        <!-- Cấu hình FormSubmit -->
+        <input type="hidden" name="_subject" value="Tin nhắn từ Tiến Rose Portfolio">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <!-- Khi deploy GitHub Pages, nhớ đổi _next cho đúng URL -->
+        <input type="hidden" name="_next" value="http://localhost:8158/Portfolio/index.html?sent=1">
+
+        <label>
+          Tên
+          <input type="text" name="name" placeholder="VD: Nguyễn Văn A" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" placeholder="VD: banbe@gmail.com" required />
+        </label>
+
+        <label>
+          Lời nhắn
+          <textarea name="message" rows="4" placeholder="Bạn muốn nói gì?" required></textarea>
+        </label>
+
+        <button class="btn primary" type="submit">Gửi</button>
+        <p class="form-note">
+          Sau khi gửi thành công, trang sẽ tự reload và hiện thông báo màu xanh ở trên.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tiến Rose · Built with HTML/CSS/JS · Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
